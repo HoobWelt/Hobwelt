@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "85452202964",
+    "project_id": "hobwelt-f5a5d",
+    "storage_bucket": "hobwelt-f5a5d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85452202964:android:0bacb93bdb507294996c41",
+        "android_client_info": {
+          "package_name": "org.hobwelt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0JvdMNNGQK1MG3aeAcZ1PKhBR6scgBEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
