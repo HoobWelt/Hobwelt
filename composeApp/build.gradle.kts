@@ -9,6 +9,9 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
+
+    // Add the Google services Gradle plugin
+    id("com.google.gms.google-services")
 }
 
 kotlin {
@@ -104,5 +107,20 @@ dependencies {
     implementation(libs.androidx.material3.android)
     implementation(libs.androidx.ui.android)
     debugImplementation(compose.uiTooling)
+    // Import the Firebase BoM
+
+    implementation(platform(libs.firebase.bom))
+
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+
+    // Add the dependency for the Firebase SDK for Google Analytics
+
+    implementation(libs.firebase.analytics)
+
+
+    // TODO: Add the dependencies for any other Firebase products you want to use
+    implementation(libs.firebase.auth)
+    implementation(libs.firebase.firestore)
+
 }
 
